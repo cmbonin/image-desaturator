@@ -79,8 +79,8 @@ export default class ImageDesaturator extends React.Component {
 
     const canvas = document.createElement('canvas');
     const canvasContext = canvas.getContext('2d');
-    const imgW = imgObj.width;
-    const imgH = imgObj.height;
+    const imgW = imgObj.naturalWidth;
+    const imgH = imgObj.naturalWidth;
     canvas.width = imgW;
     canvas.height = imgH;
     canvasContext.drawImage(imgObj, 0, 0);

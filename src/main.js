@@ -8,6 +8,6 @@ import Application from './components/Application/component';
 document.addEventListener('DOMContentLoaded', () => {
 	ReactDOM.render(
 		<Application />,
-		document.getElementById('root')
+		document.getElementById('app')
 	);
 });

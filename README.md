@@ -1,4 +1,4 @@
-Image desaturator
+# [Image desaturator][0]
 =====================
 
 App to convert images to black and white.
@@ -12,3 +12,4 @@ Chrome
 npm install
 npm run build
 ```
+[0]: http://celinebonin.com/image-desaturator/

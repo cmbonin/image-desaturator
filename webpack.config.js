@@ -1,40 +1,34 @@
 var path = require('path');
-var webpack = require('webpack');
 
 module.exports = {
-  devtool: 'eval',
-  entry: [
-    'webpack-dev-server/client?http://localhost:3000',
-    'webpack/hot/only-dev-server',
-    './src/index'
-  ],
-  output: {
-    path: path.join(__dirname, 'dist'),
-    filename: 'bundle.js',
-    publicPath: '/'
-  },
+	entry: './src/main.js',
+	output: {
+		path: path.resolve(__dirname, 'dist'),
+		filename: 'bundle.js',
+	},
 	resolve: {
 		extensions: ['', '.js', '.jsx'],
 	},
-  plugins: [
-    new webpack.HotModuleReplacementPlugin()
-  ],
 	devtool: 'source-map',
-  module: {
-    loaders: [
-      {
-        loaders: ['react-hot', 'babel'],
-        include: path.join(__dirname, 'src'),
-        test: /\.jsx?$/
-      },
+	module: {
+		loaders: [
 			{
-        // required by bootstrap.css
+				loader: 'babel',
+				include: [path.resolve(__dirname, 'src')],
+				exclude: [path.resolve(__dirname, 'node_modules')],
+				test: /\.jsx?$/,
+				query: {
+					plugins: ['transform-runtime'],
+					presets: ['es2015', 'react'],
+				},
+			},
+			{
 				loader: 'file',
 				test: /\.(eot|svg|ttf|woff2?)$/
 			},
 			{
 				loader: 'style!css',
-				test: /\.css$/
+				test: /\.css$/,
 			},
 			{
 				// SASS loader for app styles
@@ -48,6 +42,6 @@ module.exports = {
 				include: [path.resolve(__dirname, 'src/components')],
         test: /\.scss$/
 			},
-    ]
-  }
+		],
+	},
 };

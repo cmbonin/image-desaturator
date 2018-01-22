@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = hyphenate;\n\nvar rUpper = /([A-Z])/g;\n\nfunction hyphenate(string) {\n  return string.replace(rUpper, '-$1').toLowerCase();\n}\nmodule.exports = exports['default'];"},"hash":"74ff0503b36f7368dd00ed70f4670bd1"}

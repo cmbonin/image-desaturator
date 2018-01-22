@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = getWindow;\nfunction getWindow(node) {\n  return node === node.window ? node : node.nodeType === 9 ? node.defaultView || node.parentWindow : false;\n}\nmodule.exports = exports[\"default\"];"},"hash":"0b5f75111b1fe92adb3c9bca7473f457"}

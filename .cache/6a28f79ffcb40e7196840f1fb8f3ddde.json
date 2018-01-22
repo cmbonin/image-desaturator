@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";function e(e){return e===e.window?e:9===e.nodeType&&(e.defaultView||e.parentWindow)}Object.defineProperty(exports,\"__esModule\",{value:!0}),exports.default=e,module.exports=exports.default;"},"hash":"8b541b60f0ed3a7c7cd48d246440fa35"}

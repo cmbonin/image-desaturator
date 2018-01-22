@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"_css_loader"}],"generated":{"css":".image-preview {\n  max-width: 400px; }\n\n.column img {\n  max-width: 100%; }\n\nbutton {\n  margin: 0 10px 10px 0; }\n","js":"\n        var reloadCSS = require('_css_loader');\n        module.hot.dispose(reloadCSS);\n        module.hot.accept(reloadCSS);\n      "},"hash":"c4afec6bcc795fe453c4a0ca8d0726dc"}

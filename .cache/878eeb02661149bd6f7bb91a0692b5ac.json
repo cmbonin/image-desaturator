@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";function e(e,t){return\"removeProperty\"in e.style?e.style.removeProperty(t):e.style.removeAttribute(t)}Object.defineProperty(exports,\"__esModule\",{value:!0}),exports.default=e,module.exports=exports.default;"},"hash":"bf65e955fdb044ece37d1030b3f0302d"}

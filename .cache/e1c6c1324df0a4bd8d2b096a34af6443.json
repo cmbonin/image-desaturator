@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"../../modules/es7.object.values","loc":{"line":1,"column":8}},{"name":"../../modules/_core","loc":{"line":2,"column":25}}],"generated":{"js":"require('../../modules/es7.object.values');\nmodule.exports = require('../../modules/_core').Object.values;\n"},"hash":"9572ff2cedad7b4975d0695e193076c2"}

@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = capitalize;\nfunction capitalize(string) {\n  return \"\" + string.charAt(0).toUpperCase() + string.slice(1);\n}"},"hash":"84fcac75a3f5ca184493cfe9ce0bb107"}

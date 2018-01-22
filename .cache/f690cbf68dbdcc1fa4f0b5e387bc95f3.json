@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";Object.defineProperty(exports,\"__esModule\",{value:!0}),exports.default=t;var e=/^((translate|rotate|scale)(X|Y|Z|3d)?|matrix(3d)?|perspective|skew(X|Y)?)$/i;function t(t){return!(!t||!e.test(t))}module.exports=exports.default;"},"hash":"6992b30eeb6c38e0159b9ffc81a2b7a8"}

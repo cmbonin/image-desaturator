@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"core-js/library/fn/object/entries","loc":{"line":1,"column":38}}],"generated":{"js":"module.exports={default:require(\"core-js/library/fn/object/entries\"),__esModule:!0};"},"hash":"d0629f7c1599a70d2eff0829934df4d9"}

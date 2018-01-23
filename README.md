@@ -10,6 +10,7 @@ Chrome
 
 ```
 npm install
+npm start
 npm run build
 ```
 [0]: http://celinebonin.com/image-desaturator/

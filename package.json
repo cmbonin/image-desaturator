@@ -1,7 +1,7 @@
 {
   "name": "image-desaturator",
   "version": "1.0.0",
-  "description": "=====================",
+  "description": "Convert images to balck and white",
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
